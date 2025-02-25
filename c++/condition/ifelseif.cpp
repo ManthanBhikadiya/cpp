@@ -24,17 +24,17 @@ int main()
     {
         cout << "c is biger.";
     }
-    else if (a == b && b == a)
+    else if (a == b && b != c)
     {
         cout << "a and b are equal.";
     }
-    else if (a == c && c == a)
-    {
-        cout << "a and c are equal.";
-    }
-    else if (b == c && c == b)
+    else if (b == c && c != a)
     {
         cout << "b and c are equal.";
+    }
+    else if (a == c && c != b)
+    {
+        cout << "a and c are equal.";
     }
     else
     {
