@@ -41,7 +41,7 @@ int main()
     }
     else if(grade =='F')
     {
-        cout << "Please try again next taim";
+        cout << "Please try again next time.";
     }
     else{
         cout<<" ";
