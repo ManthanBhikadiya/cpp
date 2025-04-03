@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
 int main()
@@ -9,7 +8,7 @@ int main()
     cout << "Enter the array's row & column size:";
     cin >> r;
 
-    vector<vector<int>>a(r,vector<int>(r));
+     int a[r][c];
 
     cout << "Enter array's elements: "<<endl;
     for (int i = 0; i < r; i++)
